@@ -14,3 +14,59 @@ Mencione como os algoritmos foram implementados, os cenários de teste e como se
 3. **Resultados e discussão**: apresente os resultados dos experimentos por meio de gráficos e tabelas para exibir o desempenho dos diferentes algoritmos em função do tamanho da lista e da distribuição dos dados, com a interpretação destes resultados;
 4. **Conclusão**: descreva as principais conclusões obtidas com os experimentos, indicando quais algoritmos seriam mais adequados para cada situação. Mencione possíveis limitações dos experimentos realizados;
 5. **Anexos**:  Inclua o código fonte utilizado para os experimentos.
+
+
+
+obs:
+~~~
+project_root/
+│
+├── lists.py                         # Define listas de diferentes tamanhos para os testes
+├── main.py                          # Executa o projeto principal, chamando todos os testes de cada algoritmo
+│
+├── sorting_algorithms/              # Pasta principal para os algoritmos de ordenação
+│   │
+│   ├── simple/                      # Pasta para algoritmos de ordenação simples
+│   │   ├── bubble_sort/
+│   │   │   ├── bubble_sort.py       # Implementação do Bubble Sort
+│   │   │   ├── time_test.py         # Teste de tempo para Bubble Sort
+│   │   │   ├── line_profile_test.py # Teste de desempenho por linha para Bubble Sort
+│   │   │   └── memory_test.py       # Teste de memória para Bubble Sort
+│   │   │
+│   │   ├── selection_sort/
+│   │   │   ├── selection_sort.py    # Implementação do Selection Sort
+│   │   │   ├── time_test.py         # Teste de tempo para Selection Sort
+│   │   │   ├── line_profile_test.py # Teste de desempenho por linha para Selection Sort
+│   │   │   └── memory_test.py       # Teste de memória para Selection Sort
+│   │   │
+│   │   └── insertion_sort/
+│   │       ├── insertion_sort.py    # Implementação do Insertion Sort
+│   │       ├── time_test.py         # Teste de tempo para Insertion Sort
+│   │       ├── line_profile_test.py # Teste de desempenho por linha para Insertion Sort
+│   │       └── memory_test.py       # Teste de memória para Insertion Sort
+│   │
+│   └── efficient/                   # Pasta para algoritmos de ordenação eficiente
+│       ├── heap_sort/
+│       │   ├── heap_sort.py         # Implementação do Heap Sort
+│       │   ├── time_test.py         # Teste de tempo para Heap Sort
+│       │   ├── line_profile_test.py # Teste de desempenho por linha para Heap Sort
+│       │   └── memory_test.py       # Teste de memória para Heap Sort
+│       │
+│       ├── merge_sort/
+│       │   ├── merge_sort.py        # Implementação do Merge Sort
+│       │   ├── time_test.py         # Teste de tempo para Merge Sort
+│       │   ├── line_profile_test.py # Teste de desempenho por linha para Merge Sort
+│       │   └── memory_test.py       # Teste de memória para Merge Sort
+│       │
+│       ├── quick_sort/
+│       │   ├── quick_sort.py        # Implementação do Quick Sort
+│       │   ├── time_test.py         # Teste de tempo para Quick Sort
+│       │   ├── line_profile_test.py # Teste de desempenho por linha para Quick Sort
+│       │   └── memory_test.py       # Teste de memória para Quick Sort
+│       │
+│       └── sort_internal/
+│           ├── sort_internal.py     # Função interna de ordenação (Python `sorted`)
+│           ├── time_test.py         # Teste de tempo para função interna
+│           ├── line_profile_test.py # Teste de desempenho por linha para função interna
+│           └── memory_test.py       # Teste de memória para função interna
+~~~

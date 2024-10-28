@@ -2,7 +2,7 @@
 
 from bubble_sort import bubble_sort
 import time
-from lists.listas_quase_ordenadas import (
+from listas.listas_quase_ordenadas import (
     lista_10_QuaseOrdenado,
     lista_25_InversamenteOrdenado,
     lista_50_InversamenteOrdenado,
@@ -10,7 +10,7 @@ from lists.listas_quase_ordenadas import (
     lista_1000_InversamenteOrdenado
 )
 
-from lists.listas_desordenadas import (
+from listas.listas_desordenadas import (
     lista_10_Desordenado,
     lista_25_Desordenado,
     lista_50_Desordenado,
@@ -18,7 +18,7 @@ from lists.listas_desordenadas import (
     lista_1000_Desordenado
 )
 
-from lists.listas_ordenadas_inversamente import (
+from listas.listas_ordenadas_inversamente import (
     lista_10_InversamenteOrdenado,
     lista_25_InversamenteOrdenado,
     lista_50_InversamenteOrdenado,
@@ -33,7 +33,7 @@ from lists.listas_ordenadas_inversamente import (
 
 # Bubble Sort: Lista Desordenada: lista_10_Desordenado
 start_time_10_desord_bubble_sort = time.time()
-print(bubble_sort(lists.lista_10_Desordenado))
+print(bubble_sort(listas.lista_10_Desordenado))
 end_time_10_desord_bubble_sort = time.time()
 
 # Bubble Sort: Lista Desordenada: lista_25_Desordenado

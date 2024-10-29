@@ -1,7 +1,7 @@
 # imports
 from bubble_sort import bubble_sort
 import time
-from listas.listas_quase_ordenadas import (
+from listas_quase_ordenadas import (
     lista_10_QuaseOrdenado,
     lista_25_InversamenteOrdenado,
     lista_50_InversamenteOrdenado,
@@ -17,7 +17,7 @@ from listas_desordenadas import (
     lista_1000_Desordenado
 )
 
-from listas.listas_ordenadas_inversamente import (
+from listas_ordenadas_inversamente import (
     lista_10_InversamenteOrdenado,
     lista_25_InversamenteOrdenado,
     lista_50_InversamenteOrdenado,
@@ -32,27 +32,27 @@ from listas.listas_ordenadas_inversamente import (
 
 # Bubble Sort: Lista Desordenada: lista_10_Desordenado
 start_time_10_desord_bubble_sort = time.time()
-print(bubble_sort(listas.lista_10_Desordenado))
+print(bubble_sort(lista_10_Desordenado))
 end_time_10_desord_bubble_sort = time.time()
 
 # Bubble Sort: Lista Desordenada: lista_25_Desordenado
 start_time_25_desord_bubble_sort = time.time()  
-print(bubble_sort(listas.lista_25_Desordenado))
+print(bubble_sort(lista_25_Desordenado))
 end_time_25_desord_bubble_sort = time.time()
 
 # Bubble Sort: Lista Desordenada: lista_50_Desordenado
 start_time_50_desord_bubble_sort = time.time()
-print(bubble_sort(listas.lista_50_Desordenado))
+print(bubble_sort(lista_50_Desordenado))
 end_time_50_desord_bubble_sort = time.time()
 
 # Bubble Sort: Lista Desordenada: lista_100_Desordenado
 start_time_100_desord_bubble_sort = time.time()
-print(bubble_sort(listas.lista_100_Desordenado))
+print(bubble_sort(lista_100_Desordenado))
 end_time_100_desord_bubble_sort = time.time()
 
 # Bubble Sort: Lista Desordenada: lista_1000_Desordenado
 start_time_1000_desord_bubble_sort = time.time()
-print(bubble_sort(listas.lista_1000_Desordenado))
+print(bubble_sort(lista_1000_Desordenado))
 end_time_1000_desord_bubble_sort = time.time()
 
 # Bubble Sort: Lista quase ordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -45,12 +45,12 @@ Algoritmos de ordenação simples ⚠️
 # imports
 import time
 from sorting_algorithms.simple.bubble_sort.bubble_sort import bubble_sort
-from sorting_algorithms.simple.selection_sort.selection_sort import selection_sort
-from sorting_algorithms.simple.insertion_sort.insertion_sort import insertion_sort_modificado
-from sorting_algorithms.efficient.heap_sort.heap_sort import heap_sort
-from sorting_algorithms.efficient.merge_sort.merge_sort import merge_sort
-from sorting_algorithms.efficient.quick_sort.quick_sort import quick_sort
-from sorting_algorithms.efficient.quick_sort.quick_sort import quick_sort
+from selection_sort import selection_sort
+from insertion_sort import insertion_sort_modificado
+from heap_sort import heap_sort
+from merge_sort import merge_sort
+from quick_sort import quick_sort
+from quick_sort import quick_sort
 import sorting_algorithms.listas.listas as listas
 
 # Time ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

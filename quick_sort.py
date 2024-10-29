@@ -19,3 +19,4 @@ def quick_sort(lista, inicio, fim):
         posicao = particiona(lista, inicio, fim)
         quick_sort(lista, inicio, posicao - 1)
         quick_sort(lista, posicao + 1, fim)
+        

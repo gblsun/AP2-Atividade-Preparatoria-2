@@ -9,7 +9,7 @@ from listas.listas_quase_ordenadas import (
     lista_1000_InversamenteOrdenado
 )
 
-from listas.listas_desordenadas import (
+from listas_desordenadas import (
     lista_10_Desordenado,
     lista_25_Desordenado,
     lista_50_Desordenado,

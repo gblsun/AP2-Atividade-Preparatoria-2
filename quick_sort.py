@@ -1,3 +1,4 @@
+
 # função troca
 def troca(lista, i, j):
     lista[i], lista[j] = lista[j], lista[i]

@@ -1,7 +1,8 @@
 #import
 from quick_sort import quick_sort as qs
-
+import sys
 import time
+
 
 from listas_quase_ordenadas import (
     lista_10_QuaseOrdenado,
@@ -27,8 +28,8 @@ from listas_ordenadas_inversamente import (
     lista_1000_InversamenteOrdenado
 )
 
-
-
+print(sys.getrecursionlimit())
+sys.setrecursionlimit(1500)
 # Quick Sort ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Quick Sort: Lista Desordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

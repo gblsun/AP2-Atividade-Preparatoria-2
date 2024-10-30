@@ -1,5 +1,5 @@
 # imports
-from insertion_sort import insertion_sort_modificado 
+from function_insertion_sort import insertion_sort_modificado 
 import time
 from listas_desordenadas import (
     lista_1000_Desordenado,

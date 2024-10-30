@@ -1,5 +1,5 @@
 # imports
-from selection_sort import selection_sort
+from function_selection_sort import selection_sort
 from line_profiler import LineProfiler
 
 from listas_desordenadas import (

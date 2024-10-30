@@ -1,5 +1,5 @@
 # imports
-from bubble_sort import bubble_sort
+from function_bubble_sort import bubble_sort
 import time
 from listas_desordenadas import (
     lista_1000_Desordenado,

@@ -1,5 +1,5 @@
 # imports
-from selection_sort import selection_sort
+from function_selection_sort import selection_sort
 import time
 from listas_desordenadas import (
     lista_1000_Desordenado,

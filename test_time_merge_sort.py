@@ -1,5 +1,5 @@
 #import
-from merge_sort import merge_sort as ms
+from function_merge_sort import merge_sort as ms
 
 import time
 

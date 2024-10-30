@@ -1,5 +1,5 @@
 # imports
-from heap_sort import heap_sort
+from function_heap_sort import heap_sort
 from memory_profiler import profile
 
 from listas_desordenadas import (

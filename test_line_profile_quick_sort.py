@@ -1,5 +1,5 @@
 # imports
-from quick_sort import quick_sort
+from function_quick_sort import quick_sort
 from line_profiler import LineProfiler
 import sys
 

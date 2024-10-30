@@ -1,5 +1,5 @@
 # imports
-from merge_sort import merge_sort
+from function_merge_sort import merge_sort
 from line_profiler import LineProfiler
 
 from listas_desordenadas import (

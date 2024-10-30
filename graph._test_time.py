@@ -11,7 +11,6 @@ from function_insertion_sort import insertion_sort_modificado
 from function_quick_sort import quick_sort as qs
 from function_selection_sort import selection_sort as ss
 
-import time
 
 
 from listas_quase_ordenadas import (
@@ -38,8 +37,23 @@ from listas_ordenadas_inversamente import (
     lista_1000_InversamenteOrdenado
 )
 
-from test_time_bubble_sort import end_time_10_desord_bubble_sort
-
+from test_time_bubble_sort import (
+    result_time_lista_10_Desordenado_bubble,
+    result_time_lista_25_Desordenado_bubble,
+    result_time_lista_50_Desordenado_bubble,
+    result_time_lista_100_Desordenado_bubble,
+    result_time_lista_1000_Desordenado_bubble,
+    result_time_lista_10_QuaseOrd_bubble,
+    result_time_lista_25_QuaseOrd_bubble,
+    result_time_lista_50_QuaseOrd_bubble,
+    result_time_lista_100_QuaseOrd_bubble,
+    result_time_lista_1000_QuaseOrd_bubble,
+    result_time_lista_10_InversamenteOrd_bubble,
+    result_time_lista_25_InversamenteOrd_bubble,
+    result_time_lista_50_InversamenteOrd_bubble,
+    result_time_lista_100_InversamenteOrd_bubble,
+    result_time_lista_1000_InversamenteOrd_bubble,
+)
 
 # Bubble_Sort = {}
 # Selection_Sort = {}
@@ -51,7 +65,7 @@ from test_time_bubble_sort import end_time_10_desord_bubble_sort
 
 # plt.figure(figsize=(10, 10))
 # plt.plot()
-mport matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 # Tempos de execução (substitua pelas suas variáveis)
 tempos = {

@@ -35,9 +35,9 @@ sys.setrecursionlimit(1500)
 # Quick Sort: Lista Desordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Quick Sort: Lista Desordenada: lista_10_Desordenado
-start_time_10_desord_quick_sort = time.time()
+start_time_10_desord_quick_sort = time.perf_counter()
 qs(lista_10_Desordenado,0,len(lista_10_Desordenado)- 1)
-end_time_10_desord_quick_sort = time.time()
+end_time_10_desord_quick_sort = time.perf_counter()
 print("Tempo para ordenar lista_10_Desordenado:", end_time_10_desord_quick_sort - start_time_10_desord_quick_sort)
 
 # Quick Sort: Lista Desordenada: lista_25_Desordenado

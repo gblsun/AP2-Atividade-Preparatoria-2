@@ -96,4 +96,3 @@ profile_sorting_function(lista_100_InversamenteOrdenado)
 # Bubble Sort: Lista inversamente ordenada: lista_1000_InversamenteOrdenado
 print("Bubble Sort: Lista Inversamente Ordenada - lista_1000_InversamenteOrdenado")
 profile_sorting_function(lista_1000_InversamenteOrdenado)
-    

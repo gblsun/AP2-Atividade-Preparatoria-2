@@ -1,5 +1,4 @@
 # imports
-from function_selection_sort import selection_sort
 from memory_profiler import profile
 
 from listas_desordenadas import (
@@ -27,72 +26,72 @@ from listas_ordenadas_inversamente import (
 # Função de perfilamento com memory_profile
 @profile
 def profile_sorting_function(lista):
-    result = selection_sort(lista)
+    result = lista.sort()
     print(result)
 
-# Selection Sort ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Selection Sort: Lista Desordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Sort ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Sort: Lista Desordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Selection Sort: Lista Desordenada: lista_10_Desordenado
-print("Selection Sort: Lista Desordenada - lista_10_Desordenado")
+# Sort: Lista Desordenada: lista_10_Desordenado
+print("Sort: Lista Desordenada - lista_10_Desordenado")
 profile_sorting_function(lista_10_Desordenado)
 
-# Selection Sort: Lista Desordenada: lista_25_Desordenado
-print("Selection Sort: Lista Desordenada - lista_25_Desordenado")
+# Sort: Lista Desordenada: lista_25_Desordenado
+print("Sort: Lista Desordenada - lista_25_Desordenado")
 profile_sorting_function(lista_25_Desordenado)
 
-# Selection Sort: Lista Desordenada: lista_50_Desordenado
-print("Selection Sort: Lista Desordenada - lista_50_Desordenado")
+# Sort: Lista Desordenada: lista_50_Desordenado
+print("Sort: Lista Desordenada - lista_50_Desordenado")
 profile_sorting_function(lista_50_Desordenado)
 
-# Selection Sort: Lista Desordenada: lista_100_Desordenado
-print("Selection Sort: Lista Desordenada - lista_100_Desordenado")
+# Sort: Lista Desordenada: lista_100_Desordenado
+print("Sort: Lista Desordenada - lista_100_Desordenado")
 profile_sorting_function(lista_100_Desordenado)
 
-# Selection Sort: Lista Desordenada: lista_1000_Desordenado
-print("Selection Sort: Lista Desordenada - lista_1000_Desordenado")
+# Sort: Lista Desordenada: lista_1000_Desordenado
+print("Sort: Lista Desordenada - lista_1000_Desordenado")
 profile_sorting_function(lista_1000_Desordenado)
 
-# Selection Sort: Lista Quase Ordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Sort: Lista Quase Ordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Selection Sort: Lista quase ordenada: lista_10_QuaseOrdenado
-print("Selection Sort: Lista Quase Ordenada - lista_10_QuaseOrdenado")
+# Sort: Lista quase ordenada: lista_10_QuaseOrdenado
+print("Sort: Lista Quase Ordenada - lista_10_QuaseOrdenado")
 profile_sorting_function(lista_10_QuaseOrdenado)
 
-# Selection Sort: Lista quase ordenada: lista_25_QuaseOrdenado
-print("Selection Sort: Lista Quase Ordenada - lista_25_QuaseOrdenado")
+# Sort: Lista quase ordenada: lista_25_QuaseOrdenado
+print("Sort: Lista Quase Ordenada - lista_25_QuaseOrdenado")
 profile_sorting_function(lista_25_QuaseOrdenado)
 
-# Selection Sort: Lista quase ordenada: lista_50_QuaseOrdenado
-print("Selection Sort: Lista Quase Ordenada - lista_50_QuaseOrdenado")
+# Sort: Lista quase ordenada: lista_50_QuaseOrdenado
+print("Sort: Lista Quase Ordenada - lista_50_QuaseOrdenado")
 profile_sorting_function(lista_50_QuaseOrdenado)
 
-# Selection Sort: Lista quase ordenada: lista_100_QuaseOrdenado
-print("Selection Sort: Lista Quase Ordenada - lista_100_QuaseOrdenado")
+# Sort: Lista quase ordenada: lista_100_QuaseOrdenado
+print("Sort: Lista Quase Ordenada - lista_100_QuaseOrdenado")
 profile_sorting_function(lista_100_QuaseOrdenado)
 
-# Selection Sort: Lista quase ordenada: lista_1000_QuaseOrdenado
-print("Selection Sort: Lista Quase Ordenada - lista_1000_QuaseOrdenado")
+# Sort: Lista quase ordenada: lista_1000_QuaseOrdenado
+print("Sort: Lista Quase Ordenada - lista_1000_QuaseOrdenado")
 profile_sorting_function(lista_1000_QuaseOrdenado)
 
-# Selection Sort: Lista Inversamente Ordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Sort: Lista Inversamente Ordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Selection Sort: Lista inversamente ordenada: lista_10_InversamenteOrdenado
-print("Selection Sort: Lista Inversamente Ordenada - lista_10_InversamenteOrdenado")
+# Sort: Lista inversamente ordenada: lista_10_InversamenteOrdenado
+print("Sort: Lista Inversamente Ordenada - lista_10_InversamenteOrdenado")
 profile_sorting_function(lista_10_InversamenteOrdenado)
 
-# Selection Sort: Lista inversamente ordenada: lista_25_InversamenteOrdenado
-print("Selection Sort: Lista Inversamente Ordenada - lista_25_InversamenteOrdenado")
+# Sort: Lista inversamente ordenada: lista_25_InversamenteOrdenado
+print("Sort: Lista Inversamente Ordenada - lista_25_InversamenteOrdenado")
 profile_sorting_function(lista_25_InversamenteOrdenado)
 
-# Selection Sort: Lista inversamente ordenada: lista_50_InversamenteOrdenado
-print("Selection Sort: Lista Inversamente Ordenada - lista_50_InversamenteOrdenado")
+# Sort: Lista inversamente ordenada: lista_50_InversamenteOrdenado
+print("Sort: Lista Inversamente Ordenada - lista_50_InversamenteOrdenado")
 profile_sorting_function(lista_50_InversamenteOrdenado)
 
-# Selection Sort: Lista inversamente ordenada: lista_100_InversamenteOrdenado
-print("Selection Sort: Lista Inversamente Ordenada - lista_100_InversamenteOrdenado")
+# Sort: Lista inversamente ordenada: lista_100_InversamenteOrdenado
+print("Sort: Lista Inversamente Ordenada - lista_100_InversamenteOrdenado")
 profile_sorting_function(lista_100_InversamenteOrdenado)
 
-# Selection Sort: Lista inversamente ordenada: lista_1000_InversamenteOrdenado
-print("Selection Sort: Lista Inversamente Ordenada - lista_1000_InversamenteOrdenado")
+# Sort: Lista inversamente ordenada: lista_1000_InversamenteOrdenado
+print("Sort: Lista Inversamente Ordenada - lista_1000_InversamenteOrdenado")
 profile_sorting_function(lista_1000_InversamenteOrdenado)

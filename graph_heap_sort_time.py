@@ -48,7 +48,7 @@ plt.figure(figsize=(10, 6))
 for tipo, tempos_lista in tempos.items():
     plt.plot(tempos_lista.keys(), tempos_lista.values(), marker='o', label=tipo)
 
-plt.title('Comparação de Algoritmos de Ordenação - hs Sort')
+plt.title('Comparação de Algoritmos de Ordenação Heap Sort')
 plt.xlabel('Tamanho da Lista')
 plt.ylabel('Tempo de Execução (s)')
 plt.legend()

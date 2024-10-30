@@ -51,6 +51,6 @@ rotulos = [
 plt.figure(figsize=(10, 6))
 plt.barh(rotulos, tempos, color='skyblue')
 plt.xlabel('Tempo (ms)')
-plt.title('Tempo de Execução do quick Sort')
+plt.title('Tempo de Execução do Quick Sort')
 plt.grid(axis='x')
 plt.show()

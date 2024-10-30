@@ -1,5 +1,5 @@
 #import
-from quick_sort import quick_sort as qs
+from function_quick_sort import quick_sort as qs
 import sys
 import time
 

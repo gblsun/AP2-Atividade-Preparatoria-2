@@ -1,5 +1,5 @@
 # imports
-from bubble_sort import bubble_sort
+from function_bubble_sort import bubble_sort
 from line_profiler import LineProfiler
 
 from listas_desordenadas import (

@@ -1,5 +1,5 @@
 # imports
-from heap_sort import heap_sort as hs
+from function_heap_sort import heap_sort as hs
 import time
 from listas_desordenadas import (
     lista_1000_Desordenado,

@@ -1,5 +1,5 @@
 # imports
-from insertion_sort import insertion_sort_modificado
+from function_insertion_sort import insertion_sort_modificado
 from line_profiler import LineProfiler
 
 from listas_desordenadas import (

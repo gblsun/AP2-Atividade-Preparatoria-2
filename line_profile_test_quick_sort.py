@@ -1,6 +1,8 @@
 # imports
 from quick_sort import quick_sort
 from line_profiler import LineProfiler
+import sys
+
 
 from listas_desordenadas import (
     lista_1000_Desordenado,
@@ -24,9 +26,12 @@ from listas_ordenadas_inversamente import (
     lista_10_InversamenteOrdenado
 )
 
+print(sys.getrecursionlimit())
+sys.setrecursionlimit(1500)
+
 # Função de perfilamento
 def profile_sorting_function(lista):
-    result = quick_sort(lista)
+    result = quick_sort(lista, 0, len(lista) - 1)  # Adicionando os parâmetros 'inicio' e 'fim'
     print(result)
 
 # Configuração do LineProfiler
@@ -34,6 +39,7 @@ profiler = LineProfiler()
 profiler.add_function(quick_sort)
 
 # Quick Sort ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Quick Sort: Lista Desordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Quick Sort: Lista Desordenada: lista_10_Desordenado

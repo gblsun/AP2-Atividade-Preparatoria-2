@@ -1,5 +1,4 @@
 # imports
-from function_bubble_sort import bubble_sort
 from line_profiler import LineProfiler
 
 from listas_desordenadas import (
@@ -26,120 +25,120 @@ from listas_ordenadas_inversamente import (
 
 # Função de perfilamento
 def profile_sorting_function(lista):
-    result = bubble_sort(lista)
-    print(result)
+    lista.sort()
+    print(lista)
 
 # Configuração do LineProfiler
 profiler = LineProfiler()
-profiler.add_function(bubble_sort)
+profiler.add_function(profile_sorting_function)
 
-# Bubble Sort ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Bubble Sort: Lista Desordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Sort ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Sort: Lista Desordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Bubble Sort: Lista Desordenada: lista_10_Desordenado
-print("Bubble Sort: Lista Desordenada - lista_10_Desordenado")
+# Sort: Lista Desordenada: lista_10_Desordenado
+print("Sort: Lista Desordenada - lista_10_Desordenado")
 profiler.enable()
 profile_sorting_function(lista_10_Desordenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista Desordenada: lista_25_Desordenado
-print("Bubble Sort: Lista Desordenada - lista_25_Desordenado")
+# Sort: Lista Desordenada: lista_25_Desordenado
+print("Sort: Lista Desordenada - lista_25_Desordenado")
 profiler.enable()
 profile_sorting_function(lista_25_Desordenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista Desordenada: lista_50_Desordenado
-print("Bubble Sort: Lista Desordenada - lista_50_Desordenado")
+# Sort: Lista Desordenada: lista_50_Desordenado
+print("Sort: Lista Desordenada - lista_50_Desordenado")
 profiler.enable()
 profile_sorting_function(lista_50_Desordenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista Desordenada: lista_100_Desordenado
-print("Bubble Sort: Lista Desordenada - lista_100_Desordenado")
+# Sort: Lista Desordenada: lista_100_Desordenado
+print("Sort: Lista Desordenada - lista_100_Desordenado")
 profiler.enable()
 profile_sorting_function(lista_100_Desordenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista Desordenada: lista_1000_Desordenado
-print("Bubble Sort: Lista Desordenada - lista_1000_Desordenado")
+# Sort: Lista Desordenada: lista_1000_Desordenado
+print("Sort: Lista Desordenada - lista_1000_Desordenado")
 profiler.enable()
 profile_sorting_function(lista_1000_Desordenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista Quase Ordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Sort: Lista Quase Ordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Bubble Sort: Lista quase ordenada: lista_10_QuaseOrdenado
-print("Bubble Sort: Lista Quase Ordenada - lista_10_QuaseOrdenado")
+# Sort: Lista Quase Ordenada: lista_10_QuaseOrdenado
+print("Sort: Lista Quase Ordenada - lista_10_QuaseOrdenado")
 profiler.enable()
 profile_sorting_function(lista_10_QuaseOrdenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista quase ordenada: lista_25_QuaseOrdenado
-print("Bubble Sort: Lista Quase Ordenada - lista_25_QuaseOrdenado")
+# Sort: Lista Quase Ordenada: lista_25_QuaseOrdenado
+print("Sort: Lista Quase Ordenada - lista_25_QuaseOrdenado")
 profiler.enable()
 profile_sorting_function(lista_25_QuaseOrdenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista quase ordenada: lista_50_QuaseOrdenado
-print("Bubble Sort: Lista Quase Ordenada - lista_50_QuaseOrdenado")
+# Sort: Lista Quase Ordenada: lista_50_QuaseOrdenado
+print("Sort: Lista Quase Ordenada - lista_50_QuaseOrdenado")
 profiler.enable()
 profile_sorting_function(lista_50_QuaseOrdenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista quase ordenada: lista_100_QuaseOrdenado
-print("Bubble Sort: Lista Quase Ordenada - lista_100_QuaseOrdenado")
+# Sort: Lista Quase Ordenada: lista_100_QuaseOrdenado
+print("Sort: Lista Quase Ordenada - lista_100_QuaseOrdenado")
 profiler.enable()
 profile_sorting_function(lista_100_QuaseOrdenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista quase ordenada: lista_1000_QuaseOrdenado
-print("Bubble Sort: Lista Quase Ordenada - lista_1000_QuaseOrdenado")
+# Sort: Lista Quase Ordenada: lista_1000_QuaseOrdenado
+print("Sort: Lista Quase Ordenada - lista_1000_QuaseOrdenado")
 profiler.enable()
 profile_sorting_function(lista_1000_QuaseOrdenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista Inversamente Ordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Sort: Lista Inversamente Ordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Bubble Sort: Lista inversamente ordenada: lista_10_InversamenteOrdenado
-print("Bubble Sort: Lista Inversamente Ordenada - lista_10_InversamenteOrdenado")
+# Sort: Lista Inversamente Ordenada: lista_10_InversamenteOrdenado
+print("Sort: Lista Inversamente Ordenada - lista_10_InversamenteOrdenado")
 profiler.enable()
 profile_sorting_function(lista_10_InversamenteOrdenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista inversamente ordenada: lista_25_InversamenteOrdenado
-print("Bubble Sort: Lista Inversamente Ordenada - lista_25_InversamenteOrdenado")
+# Sort: Lista Inversamente Ordenada: lista_25_InversamenteOrdenado
+print("Sort: Lista Inversamente Ordenada - lista_25_InversamenteOrdenado")
 profiler.enable()
 profile_sorting_function(lista_25_InversamenteOrdenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista inversamente ordenada: lista_50_InversamenteOrdenado
-print("Bubble Sort: Lista Inversamente Ordenada - lista_50_InversamenteOrdenado")
+# Sort: Lista Inversamente Ordenada: lista_50_InversamenteOrdenado
+print("Sort: Lista Inversamente Ordenada - lista_50_InversamenteOrdenado")
 profiler.enable()
 profile_sorting_function(lista_50_InversamenteOrdenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista inversamente ordenada: lista_100_InversamenteOrdenado
-print("Bubble Sort: Lista Inversamente Ordenada - lista_100_InversamenteOrdenado")
+# Sort: Lista Inversamente Ordenada: lista_100_InversamenteOrdenado
+print("Sort: Lista Inversamente Ordenada - lista_100_InversamenteOrdenado")
 profiler.enable()
 profile_sorting_function(lista_100_InversamenteOrdenado)
 profiler.disable()
 profiler.print_stats()
 
-# Bubble Sort: Lista inversamente ordenada: lista_1000_InversamenteOrdenado
-print("Bubble Sort: Lista Inversamente Ordenada - lista_1000_InversamenteOrdenado")
+# Sort: Lista Inversamente Ordenada: lista_1000_InversamenteOrdenado
+print("Sort: Lista Inversamente Ordenada - lista_1000_InversamenteOrdenado")
 profiler.enable()
 profile_sorting_function(lista_1000_InversamenteOrdenado)
 profiler.disable()

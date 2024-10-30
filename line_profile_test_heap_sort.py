@@ -37,7 +37,7 @@ profiler.add_function(heap_sort)
 # Heap Sort: Lista Desordenada ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Heap Sort: Lista Desordenada: lista_10_Desordenado
-print("Heap Sort: Lista Desordenada - lista_10_Desordenado")
+print("Heap Sort: Lista Desord  enada - lista_10_Desordenado")
 profiler.enable()
 profile_sorting_function(lista_10_Desordenado)
 profiler.disable()

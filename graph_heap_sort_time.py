@@ -53,7 +53,7 @@ plt.xlabel('Tamanho da Lista')
 plt.ylabel('Tempo de Execução (s)')
 plt.legend()
 plt.grid(True)
-plt.xticks(list(tempos['Desordenada'].keys()))  # Adiciona as chaves como ticks
+plt.xticks(list(tempos['Desordenada'].keys()))  
 plt.tight_layout()
 
 plt.show()

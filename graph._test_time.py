@@ -50,7 +50,6 @@ from test_time_bubble_sort import (
 
 import matplotlib.pyplot as plt
 
-# Tempos de execução (substitua pelas suas variáveis)
 tempos = {
     'Desordenada': {
         '10': result_time_lista_10_Desordenado_bubble,
@@ -75,7 +74,6 @@ tempos = {
     },
 }
 
-# Criando o gráfico
 plt.figure(figsize=(10, 6))
 
 # Plotando cada tipo de lista

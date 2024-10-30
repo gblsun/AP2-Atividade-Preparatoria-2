@@ -132,11 +132,11 @@ start_time_100_InversamenteOrd_bubble_sort = time.perf_counter()
 bubble_sort(lista_100_InversamenteOrdenado)
 end_time_100_InversamenteOrd_bubble_sort = time.perf_counter()
 result_time_lista_100_InversamenteOrd_bubble = end_time_100_InversamenteOrd_bubble_sort - start_time_100_InversamenteOrd_bubble_sort
-print("Tempo para ordenar lista_100_Inversamente_Ordenado:", result_time_lista_10_InversamenteOrd_bubble )
+print("Tempo para ordenar lista_100_Inversamente_Ordenado:", result_time_lista_100_InversamenteOrd_bubble )
 
 # Bubble Sort: lista inversamente ordenada: lista_1000_InversamenteOrdenado
 start_time_1000_InversamenteOrd_bubble_sort = time.perf_counter()
 bubble_sort(lista_1000_InversamenteOrdenado)
 end_time_1000_InversamenteOrd_bubble_sort = time.perf_counter()
 result_time_lista_1000_InversamenteOrd_bubble = end_time_1000_InversamenteOrd_bubble_sort - start_time_1000_InversamenteOrd_bubble_sort
-print("Tempo para ordenar lista_1000_Inversamente_Ordenado:", result_time_lista_10_InversamenteOrd_bubble )
+print("Tempo para ordenar lista_1000_Inversamente_Ordenado:", result_time_lista_1000_InversamenteOrd_bubble )

@@ -1,15 +1,7 @@
 #Import
-import random
-import numpy as np 
 import matplotlib.pyplot as plt
 
 
-from function_merge_sort import merge_sort as ms
-from function_bubble_sort import bubble_sort as bs
-from function_heap_sort import heap_sort as hs
-from function_insertion_sort import insertion_sort_modificado
-from function_quick_sort import quick_sort as qs
-from function_selection_sort import selection_sort as ss
 
 
 
@@ -55,16 +47,7 @@ from test_time_bubble_sort import (
     result_time_lista_1000_InversamenteOrd_bubble,
 )
 
-# Bubble_Sort = {}
-# Selection_Sort = {}
-# Insertion_Sort = {}
-# Heap_Sort = {}
-# Merge_Sort = {}
-# Quick_Sort = {}
-# Sort = {}
 
-# plt.figure(figsize=(10, 10))
-# plt.plot()
 import matplotlib.pyplot as plt
 
 # Tempos de execução (substitua pelas suas variáveis)

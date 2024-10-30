@@ -3,41 +3,41 @@
 import matplotlib.pyplot as plt
 
 # Importando os tempos medidos em milissegundos
-from test_time_merge_sort import (
-    result_time_lista_10_Desordenado_merge,
-    result_time_lista_25_Desordenado_merge,
-    result_time_lista_50_Desordenado_merge,
-    result_time_lista_100_Desordenado_merge,
-    result_time_lista_1000_Desordenado_merge,
-    result_time_lista_10_QuaseOrd_merge,
-    result_time_lista_25_QuaseOrd_merge,
-    result_time_lista_50_QuaseOrd_merge,
-    result_time_lista_100_QuaseOrd_merge,
-    result_time_lista_1000_QuaseOrd_merge,
-    result_time_lista_10_InversamenteOrd_merge,
-    result_time_lista_25_InversamenteOrd_merge,
-    result_time_lista_50_InversamenteOrd_merge,
-    result_time_lista_100_InversamenteOrd_merge,
-    result_time_lista_1000_InversamenteOrd_merge,
+from test_time_bubble_sort import (
+    result_time_lista_10_Desordenado_bubble,
+    result_time_lista_25_Desordenado_bubble,
+    result_time_lista_50_Desordenado_bubble,
+    result_time_lista_100_Desordenado_bubble,
+    result_time_lista_1000_Desordenado_bubble,
+    result_time_lista_10_QuaseOrd_bubble,
+    result_time_lista_25_QuaseOrd_bubble,
+    result_time_lista_50_QuaseOrd_bubble,
+    result_time_lista_100_QuaseOrd_bubble,
+    result_time_lista_1000_QuaseOrd_bubble,
+    result_time_lista_10_InversamenteOrd_bubble,
+    result_time_lista_25_InversamenteOrd_bubble,
+    result_time_lista_50_InversamenteOrd_bubble,
+    result_time_lista_100_InversamenteOrd_bubble,
+    result_time_lista_1000_InversamenteOrd_bubble,
 )
 
 # Tempos medidos em milissegundos
 tempos = [
-    result_time_lista_10_Desordenado_merge,
-    result_time_lista_25_Desordenado_merge,
-    result_time_lista_50_Desordenado_merge,
-    result_time_lista_100_Desordenado_merge,
-    result_time_lista_1000_Desordenado_merge,
-    result_time_lista_10_QuaseOrd_merge,
-    result_time_lista_25_QuaseOrd_merge,
-    result_time_lista_50_QuaseOrd_merge,
-    result_time_lista_100_QuaseOrd_merge,
-    result_time_lista_1000_QuaseOrd_merge,
-    result_time_lista_10_InversamenteOrd_merge,
-    result_time_lista_25_InversamenteOrd_merge,
-    result_time_lista_50_InversamenteOrd_merge,
-    result_time_lista_100_InversamenteOrd_merge,
-    result_time_lista_1000_InversamenteOrd_merge,
+    result_time_lista_10_Desordenado_bubble,
+    result_time_lista_25_Desordenado_bubble,
+    result_time_lista_50_Desordenado_bubble,
+    result_time_lista_100_Desordenado_bubble,
+    result_time_lista_1000_Desordenado_bubble,
+    result_time_lista_10_QuaseOrd_bubble,
+    result_time_lista_25_QuaseOrd_bubble,
+    result_time_lista_50_QuaseOrd_bubble,
+    result_time_lista_100_QuaseOrd_bubble,
+    result_time_lista_1000_QuaseOrd_bubble,
+    result_time_lista_10_InversamenteOrd_bubble,
+    result_time_lista_25_InversamenteOrd_bubble,
+    result_time_lista_50_InversamenteOrd_bubble,
+    result_time_lista_100_InversamenteOrd_bubble,
+    result_time_lista_1000_InversamenteOrd_bubble,
 ]
 
 # Rótulos para os diferentes tamanhos de lista
@@ -51,6 +51,6 @@ rotulos = [
 plt.figure(figsize=(10, 6))
 plt.barh(rotulos, tempos, color='skyblue')
 plt.xlabel('Tempo (ms)')
-plt.title('Tempo de Execução do Merge Sort')
+plt.title('Tempo de Execução do bubble Sort')
 plt.grid(axis='x')
 plt.show()

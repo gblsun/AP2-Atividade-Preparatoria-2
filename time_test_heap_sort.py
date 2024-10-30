@@ -34,6 +34,7 @@ from listas_ordenadas_inversamente import (
 start_time_10_desord_hs = time.perf_counter()
 print(hs(lista_10_Desordenado))
 end_time_10_desord_hs = time.perf_counter()
+
 print("Tempo para ordenar lista_10_Desordenado:", end_time_10_desord_hs - start_time_10_desord_hs)
 
 # Heap Sort: Lista Desordenada: lista_25_Desordenado

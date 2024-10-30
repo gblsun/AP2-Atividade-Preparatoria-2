@@ -23,11 +23,11 @@ from test_time_quick_sort import (
 # Organizando os tempos em milissegundos
 tempos = {
     'Desordenada': {
-        '10': result_time_lista_10_Desordenado_quick * 1000,
-        '25': result_time_lista_25_Desordenado_quick * 1000,
-        '50': result_time_lista_50_Desordenado_quick * 1000,
-        '100': result_time_lista_100_Desordenado_quick * 1000,
-        '1000': result_time_lista_1000_Desordenado_quick * 1000,
+        '10': result_time_lista_10_Desordenado_quick ,
+        '25': result_time_lista_25_Desordenado_quick ,
+        '50': result_time_lista_50_Desordenado_quick ,
+        '100': result_time_lista_100_Desordenado_quick ,
+        '1000': result_time_lista_1000_Desordenado_quick ,
     },
     'Quase Ordenada': {
         '10': result_time_lista_10_QuaseOrd_quick * 1000,
